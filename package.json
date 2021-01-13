@@ -1,15 +1,28 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "gavin-nelson-design",
   "private": true,
+  "description": "Gavin Nelson's personal website and product design portfolio.",
+  "version": "0.1.0",
+  "author": "Gavin Nelson <gavin@gnelson.me>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-ztext": "^1.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "start": "next start",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   }
 }
